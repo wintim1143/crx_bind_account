@@ -1,0 +1,1 @@
+* 此项目基于 [vite-vue-crx-2023autumn](https://github.com/Yuezi32/vite-vue-crx-2023autumn) 
