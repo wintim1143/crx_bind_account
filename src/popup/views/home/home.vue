@@ -13,17 +13,6 @@
 import { apiReqs } from '@/api';
 
 function getOrder() {
-  console.log('-0000000000000000000');
-  apiReqs.apiFetch({
-    method: 'GET',
-    url: 'https://pay.qufenqian.vip/api/order/detail/1421540',
-    success(data) {
-      console.log('success: ', data);
-    },
-    fail(msg) {
-      console.error('error: ', msg);
-    }
-  });
 }
 </script>
 
