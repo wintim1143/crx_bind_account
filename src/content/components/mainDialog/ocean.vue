@@ -139,12 +139,12 @@ async function bindAccount(item, i, token) {
   const { name, id } = item;
   try {
     const options = {
-      url: `https://business.oceanengine.com/nbs/api/bm/adv_account/change_bind_account?group_id=${groupId}`,
+      url: `https://business.oceanengine.com/nbs/api/bm/adv_account/change_bind_adv_account?group_id=${groupId}`,
       method: 'POST',
       data: {
         "account_id": id,
         "adv_type": 1,
-        "collaborator": true,
+        "collaborator": false,
         "email": email.value,
         "group_id": groupId,
         "op_type": 1,
